@@ -20,4 +20,32 @@
 7.And you can only 20,000 at once.  
 8.Lastly pin change as normal enter the new pin and pin automatically changes.  
 
+#### Idea of atm machine :- 
+
+Here the atm machine in our program contains the methods, we Can   
+- check balance in our account
+- deposit money in our account
+- withdraw money from our account
+- change the pin for our account
+
+1.The atm contains 5 account numbers in our program .     
+2.In the program I took the data in arrays. The account number and pin are in one 2d array.        
+3.If the entered account number matches with the correct matching pin the program starts executing and methods will display.       
+4.And the account balances are also in array.           
+5.Account number and balances of each account are at same indexes in different arrays.          
+6.If the entered account number and pin is the given 2d array data. The program stores the index of account number and balanceis taken as the balance present in the same index of balance array.               
+7.And the checkbalance method checks the remaining balance in the account.            
+8.Deposit method deposits the money in the account.           
+9.Withdraw method withdraws money from the account.        
+10.Pin change operation directly changes the pin for given account number. 
+
+![image](https://user-images.githubusercontent.com/98077164/206426231-4c1fab4d-b182-453d-ae81-1be5f4aa401f.png)
+
+ 
+![image](https://user-images.githubusercontent.com/98077164/206426340-033de438-2e91-420b-a6e8-ab7c8fefeb10.png)
+
+![image](https://user-images.githubusercontent.com/98077164/206426461-95187e47-7f09-47b2-a56c-83421c463c13.png)
+
+![image](https://user-images.githubusercontent.com/98077164/206426617-92fb5b6e-568c-4161-8be6-d3332caef031.png)
+
 
